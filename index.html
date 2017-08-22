@@ -4,45 +4,64 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Mariela Cubillos</title>
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Satisfy" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Courgette|Roboto+Slab:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/estilos.css">
 </head>
 <body>
-	<nav class="navbar navbar-default">
-  		<div class="container-fluid">
-    		<!-- Brand and toggle get grouped for better mobile display -->
-    		<div class="navbar-header">
+	<nav class="navbar-default barra">
+		<div class="navbar-header">
       			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         		<span class="sr-only">Toggle navigation</span>
         		<span class="icon-bar"></span>
         		<span class="icon-bar"></span>
         		<span class="icon-bar"></span>
       			</button>
-      			<a class="navbar-brand logo" href="#">MACUBIS</a>
-   			</div>
+      			<a class="navbar-brand logito" href="#">MACUBIS</a>
+   		</div>
 	    <!-- Collect the nav links, forms, and other content for toggling -->
-    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      			<ul class="nav navbar-nav navbar-center">
-        			<li><a href="#">¿Quien Soy</a></li>
-        			<li><a href="#">Herramientas</a></li>
-        			<li><a href="#">Contactame</a></li>
-      			</ul>
-    		</div><!-- /.navbar-collapse -->
-  		</div><!-- /.container-fluid -->
-	</nav>
+    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      		<ul class="nav navbar-nav navbar-right">
+        		<li><a class="enlaces" href="#">¿Quien Soy</a></li>
+        		<li><a class="enlaces" href="#">Herramientas</a></li>
+        		<li><a class="enlaces" href="#">Contactame</a></li>
+      		</ul>
+    	</div>
+    </nav>
+  	<div class="container-fluid contenedor hidden-xs">
+  		<div class="row">
+  			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    			<img src="assets/img/macubis2-01.png" class="logo-macubis2" alt="">
+    		</div>
+    	</div>
+    </div>
+    <div class="container-fluid contenedor-mobile visible-xs">
+    	<div class="row">
+  			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">		
+    			<img src="assets/img/macubis2-01.png" class="logo-macubis" alt="">		
+    		</div>
+    	</div>
+   	</div>
 	<section class="about">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-					<!-- Aqui va mi foto -->
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 center">
+					<img src="assets/img/mariela.png" alt="" class="img-circle fotito">
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-				<h1>¿Quien Soy?</h1>
-				<h2>Mariela Cubillos Soto</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto doloribus laudantium voluptas, fuga asperiores obcaecati ipsum perspiciatis labore nemo mollitia! Totam aliquid voluptas corporis libero tempora eveniet repellat corrupti earum.</p>
+				<h1 class="titulo-uno text-center hidden-xs">¿Quien Soy?</h1>
+				<h1 class="titulo-uno-mobile text-center hidden-lg ">¿Quien Soy?</h1>
+				<h2 class="titulo-dos text-center hidden-xs">Mariela Cubillos Soto</h2>
+				<h2 class="titulo-dos-mobile text-center hidden-lg">Mariela Cubillos Soto</h2>
+				<p class="parrafo hidden-xs">" Soy Desarolladora Front-End y Quimico Industrial, autentica, alegre  y comprometida con las cosas que me propongo.<br>
+				   Me integre a Laboratoria como un desafio para aprender y conocer  lo apasionante del mundo de
+				la programacion y las increibles cosas que se pueden hacer. <br>  
+				   Me proyecto en esta carrera mejorando , aprendiendo y emprendiendo nuevos desafios. "</p> 
+				 <p class="parrafo-mobile hidden-lg">" Soy Desarolladora Front-End y Quimico Industrial, autentica, alegre  y comprometida con las cosas que me propongo.<br>
+				   Me integre a Laboratoria como un desafio para aprender y conocer  lo apasionante del mundo de
+				la programacion y las increibles cosas que se pueden hacer. <br>  
+				   Me proyecto en esta carrera mejorando , aprendiendo y emprendiendo nuevos desafios. "</p>  
 				</div>
-				
 			</div>
 		</div>
 	</section>
@@ -50,66 +69,80 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<h1><b>Herramientas</b></h1>
+					<h1 class="titulo-negro text-center hidden-xs">Herramientas</h1>
+					<h1 class="titulo-mobile text-center hidden-lg">Herramientas</h1>
 				</div>
 			</div>	
 			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-					<img src="assets/img/html.png" alt="logo-html-5" class="logo">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center columnas">
+					<img src="assets/img/html.png" alt="" class="logo-herramienta1">
+					<img src="assets/img/css.jpg" alt="" class="logo-herramienta2">
+					<img src="assets/img/js.png" alt="" class="logo-herramienta3">
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-					<img src="assets/img/css.jpg" alt="logo-css-3" class="logo">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center columnas">
+					<img src="assets/img/sass.svg" alt="" class="logo-plus1">
+					<img src="assets/img/gulp.png" alt="" class="logo-plus2">
+					<img src="assets/img/npm.png" alt="" class="logo-plus3">
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-					<img src="assets/img/js.png" alt="logo-javascript" class="logo">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center columnas">
+					<img src="assets/img/download.png" alt="" class="logo-comunicacion1">
+					<img src="assets/img/trello-logo-81C64520BC-seeklogo.com.gif" class="logo-comunicacion2">
+					<img src="assets/img/agile.jpg" alt="" class="logo-comunicacion3">
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-						<img src="assets/img/sass.svg" alt="logo-sass" class="logo">
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-						<img src="assets/img/gulp.png" alt="logo-gulp" class="logo">
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-						<img src="assets/img/download.png" alt="logo-git" class="logo">
-					</div>
-				</div>	
 			</div>
 		</div>
 	</section>
 	<section class="proyectos">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<h1>Proyectos</h1>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<h1 class="titulo-uno text-center hidden-xs espacio">Proyectos</h1>
+				<h1 class="titulo-uno-mobile text-center hidden-lg ">Proyectos</h1>
+				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<div class="row">
+				<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
  					 <!-- Indicators -->
-  					<ol class="carousel-indicators">
-    					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  					</ol>
+  						<ol class="carousel-indicators">
+    						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  						</ol>
 
   					<!-- Wrapper for slides -->
-  					<div class="carousel-inner" role="listbox">
-    					<div class="item active">
-      						<img src="assets/img/Screenshot from 2017-08-02 12-42-55.png" alt="...">
-      						<div class="carousel-caption">
-      						  	<a href="#">Ver mas</a>
-     					 	</div>
-   					 	</div>
-   					 	<div class="item">
-      						<img src="assets/img/Screenshot from 2017-08-02 12-50-06.png" alt="...">
-      						<div class="carousel-caption">
-      						  	<a href="#">Ver mas</a>
-     					 	</div>
-   					 	</div>
-   					</div>
+  						<div class="carousel-inner" role="listbox">
+    						<div class="item active">
+      							<img src="assets/img/material-design.png" alt="...">
+      							<div class="carousel-caption">
+      						  		<a class="btn btn-color" href="https://macubis.github.io/portafolio-sass/" target="_blank">Ver Proyecto</a>
+     					 		</div>
+   					 		</div>
+   					 		<div class="item">
+      							<img src="assets/img/pratt-sass.png" alt="...">
+      							<div class="carousel-caption">
+      						  		<a class="btn btn-color" href="https://macubis.github.io/pratt_sass/" target="_blank">Ver proyecto</a>
+     					 		</div>
+   					 		</div>
+   					 		<div class="item">
+      							<img src="assets/img/dobby-spa.png" alt="...">
+      							<div class="carousel-caption">
+      						  		<a class="btn btn-color" href="https://macubis.github.io/dobby-spa1/" target="_blank">Ver proyecto</a>
+     					 		</div>
+   					 		</div>
+   					 		<div class="item">
+      							<img src="assets/img/guiado-bem.png" alt="...">
+      							<div class="carousel-caption">
+      						  		<a class="btn btn-color" href="https://macubis.github.io/guiado-bem/"target="_blank">Ver Proyecto</a>
+     					 		</div>
+   					 		</div>
+   					 		<div class="item">
+      							<img src="assets/img/trans-lab.png" alt="...">
+      							<div class="carousel-caption">
+      						  		<a class="btn btn-color" href="https://macubis.github.io/trans-lab/" target="_blank">Ver Proyecto</a>
+     					 		</div>
+   					 		</div>
+   						</div>
 
   					<!-- Controls -->
   					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -123,15 +156,31 @@
 				</div>
 			</div>
 		</div>
-		
 	</section>
-	<footer>
-		
-	</footer>
+	<section class="contacto">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<h1 class="titulo-negro text-center hidden-xs">Contactame</h1>
+					<h1 class="titulo-mobile text-center hidden-lg">Contactame</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<ul class="lista">
+					<li class="lista"><a href=""><i class="fa fa-envelope" aria-hidden="true"></i>  macubis@hotmail.com</a></li>
+					<li class="lista"><a href=""><i class="fa fa-mobile" aria-hidden="true"></i> +56-985520768</a></li>
+					<li class="lista"><a href="https://www.linkedin.com/in/mariela-cubillos-361300145/"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Mariela Cubillos</a></li>
+					<li class="lista"><a href="https://github.com/macubis"><i class="fa fa-github-square" aria-hidden="true"></i> Mariela Cubillos</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
 	<script
   src="http://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/477be0bbd3.js"></script>
 </body>
 </html>
