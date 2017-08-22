@@ -1,8 +1,3 @@
-
-
-
-
-
 *{
 	margin: 0px;
 	padding: 0px;
@@ -10,30 +5,15 @@
 	font-family: 'Roboto Slab', serif;
 }
 
-nav{
-	background: #CCA8E9;
+/* Seccion nav*/
+.barra{
+	background-color: #263645;
+	padding: 18px 18px 12px 20px;
+
 }
-
-
-
-.herramientas{
-	background-color: #DEFCF9;
-	font-family: 'Satisfy', cursive;
-	color: #CCA8E9;
+.enlaces{
+	color: white !important;
 }
-.herramientas h1{
-	font-family: 'Satisfy', cursive;
-}
-}
-
-
-html,body {
-  /* Extra Styles */
-  background: #fff;
-  color: #425363;
-  font-family: avenir, 'segoe ui', sans-serif;
-}
-
 @keyframes move {
 	0% { 
 		background-position: 0 60%, 0 50%;
@@ -42,21 +22,175 @@ html,body {
 	  background-position: 0 60%, 100% 50%;
 	}
 }
-
+.logito{
+	font-family: 'Courgette', cursive;
+	color: white !important;
+	font-size: 35px;
+	text-align: center;
+}
 .container-fluid {
-background-color: #263645;
-background-image: url('http://bootscootin2pdx.com/network.svg'), radial-gradient(200px 500px at center, #ff8300 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0));
-background-size: 125%, 50% 100%;
-background-position: 0 60%, 0 100%;
- animation: move 5s linear infinite;
+	background-color: #263645;
+	background-image: url('http://bootscootin2pdx.com/network.svg'), radial-gradient(200px 500px at center, #b7aca0 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0));
+	background-size: 100%, 50% 100%;
+	background-position: 0 60%, 0 100%;
+ 	animation: move 4s linear infinite;
+	height: 500px;
   
   /* Extra Styles */
-  height: 300px;
+  height: 500px;
   /*box-shadow: inset 0 0 25px rgba(0,0,0,.5);*/
   border: 2px solid #263645;
   border-right: 0;
   border-left: 0;
 }
+.contenedor{
+	padding: 50px 0px 50px ;
+}
+.contenedor-mobile{
+	padding: 0px;
+	height: 350px;
 
+}
+.navegador{
+	padding: 10px 5px 5px 50px;
+}
+.logo-macubis2{
+	width: 45%; 
+	position: relative; 
+	top: -103px;
+	left: 350px;
 
-/* Extra Styles */
+}
+.logo-macubis{
+	width: 83%;
+	position: relative;
+	top: 28px;
+	left: 29px
+}
+
+/* Seccion nav*/
+/* seccion About */
+.about{
+
+	background-color: #263645;
+	padding: 50px 10px 30px 10px;
+}
+.fotito{
+	width: 80%;
+}
+.titulo-uno{
+	color: white;
+	font-size: 50px;
+	padding-bottom: 20px;
+}
+.titulo-uno-mobile{
+	color: white;
+	font-size: 40px;
+	padding-bottom: 15px;
+}
+.titulo-dos{
+	color: white;
+	padding-bottom: 20px;
+}
+.titulo-dos-mobile{
+	
+	font-size: 20px;
+	color: white;
+	padding-bottom: 20px;
+}
+.parrafo{
+
+	color: white;
+	font-size: 19px;
+	text-align: justify;
+	line-height: 30px;
+	padding-bottom: 30px;
+}
+.parrafo-mobile{
+	
+	color: white;
+	font-size: 15px;
+	text-align: justify;
+	line-height: 20px;
+	padding-bottom: 30px;
+}
+
+/*termino about */
+/*Inicio de herramientas */
+
+.herramientas{
+	padding: 50px 5px 90px 5px;
+
+}
+.titulo-negro{
+	font-size: 60px;
+	padding-bottom: 70px;
+	font-weight: 700;
+}
+.titulo-mobile{
+	font-size: 40px;
+	padding-bottom: 30px;
+	font-weight: 700;
+}
+.columnas{
+	padding-bottom: 10px;
+}
+
+.logo-herramienta1{
+	width: 25%;
+}
+.logo-herramienta2{
+	width: 40%;
+	margin: 0px;
+}
+.logo-herramienta3{
+	width: 28%
+}
+.logo-plus1{
+	width: 40%;
+	margin-left: 2px;
+}
+.logo-plus2{
+	width: 20%;
+	margin-left: 5px; 
+}
+.logo-plus3{
+	width: 29%;
+	margin-left: 8px;
+}
+.logo-comunicacion1{
+	width:31%;
+	
+}
+.logo-comunicacion2{
+	width: 33%;
+	
+}
+.logo-comunicacion3{
+	width: 32%;
+}
+
+/* fin de herramientas */
+
+/* Comienso de proyectos */
+.proyectos{
+	background-color: #263645;
+	padding: 50px 10px 50px 10px;
+}
+
+.btn-color{
+	background-color: #263645;
+	border: 3px solid white;
+	color: white;
+	border-radius: 16px; 
+
+}
+.espacio{
+	padding: 20px 0px 50px 0px;
+}
+.contacto{
+	padding: 40px 0px 50px 0px;
+}
+.lista{
+	display: inline-block;
+}
