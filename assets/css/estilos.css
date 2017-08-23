@@ -45,27 +45,28 @@
 }
 .contenedor{
 	padding: 50px 0px 50px ;
+	height: 583px;
 }
 .contenedor-mobile{
 	padding: 0px;
-	height: 350px;
+	height: 577px;
 
 }
 .navegador{
 	padding: 10px 5px 5px 50px;
 }
 .logo-macubis2{
-	width: 45%; 
+	width: 50%; 
 	position: relative; 
-	top: -103px;
-	left: 350px;
+	top: -117px;
+	left: 276px;
 
 }
 .logo-macubis{
-	width: 83%;
+	width: 92%;
 	position: relative;
-	top: 28px;
-	left: 29px
+	top: 71px;
+	left: 18px
 }
 
 /* Seccion nav*/
@@ -73,7 +74,9 @@
 .about{
 
 	background-color: #263645;
-	padding: 50px 10px 30px 10px;
+	padding: 20px 10px 30px 10px;
+	height: 690px;
+	width: 100%;
 }
 .fotito{
 	width: 80%;
@@ -85,8 +88,8 @@
 }
 .titulo-uno-mobile{
 	color: white;
-	font-size: 40px;
-	padding-bottom: 15px;
+	font-size: 36px;
+	padding-bottom: 11px;
 }
 .titulo-dos{
 	color: white;
@@ -177,6 +180,9 @@
 	background-color: #263645;
 	padding: 50px 10px 50px 10px;
 }
+.contenedor-proyecto{
+	padding: 40px 0px 20px 0px;
+}
 
 .btn-color{
 	background-color: #263645;
@@ -193,4 +199,24 @@
 }
 .lista{
 	display: inline-block;
+	padding: 0px 10px 0px 10px;
+}
+
+.lista-mobile{
+	display: block;
+	padding: 4px
+}
+.enlace-desk{
+	color: #263645;
+	font-size: 20px;
+}
+.enlace-mobile{
+	color: #263645;
+}
+.ico-desk{
+	padding: 6px;
+	font-size: 20px;
+}
+.ico{
+	padding: 6px;
 }
